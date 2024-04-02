@@ -18,3 +18,12 @@ In our research, we decided to look closer at the most popular party districts i
 
 
 Our spatial analysis confirms, that during the night, rush hours in the party places lead to the increase in crime numbers. The least crimeful place out of the ones we analyze turns out to be the Marina district, as it is slightly isolated from the rest of the party life. Crimes committed in the night hours reach a peak around midnight, and later slowly decrease. The party time ends at 5:00, when the crime rate comes back to the daytime levels. 
+
+
+To get even more information we looked closely at the selected areas and crimes that were commited there. We then picked and showed the most interesting changes in time in crimes connected with parties. 
+
+![Text](plots/polar.png)
+
+*Figure 2: Crimes related to Vandalism, Prostitution, Drunkness and Driving under influence. The numbers in the plots show crimes commited per day to account for the diffenret number of days between the weekend and weekdays. Here weekend crimes are ones that are done between the 12pm on Friday and 12pm on Sunday.*
+
+The analysis of hourly crimes commited prove that the behaviors of offenders are different during the weekend and during the weekdays. There are more crimes during the weekends and they are in some cases shifted towards evening hours. It comes without surprise that drunkness and driving under influence is more common during late weekend nights. Vandalism and prostitution however have similar hourly distribution, but are just more frequently commited during the weekends.
