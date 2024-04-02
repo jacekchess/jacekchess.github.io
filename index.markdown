@@ -13,7 +13,6 @@ This dataset serves as a valuable resource for various stakeholders, including l
 </div>
 <br>
 <br>
-
 In our research, we decided to look closer at the most popular party districts in San Francisco <a href="ref">[2]</a> and analyze the crimes that happen there. Our goal is to find out when the party takes the out-of-law turn, where it happens, and what kind of crimes we should watch out for. The answers to these questions may help to improve safety in the "The Golden City".
 
 ### **Are parties crime triggers?** 
@@ -36,8 +35,8 @@ The analysis presented in Figure 1 does not provide any quantitive measure of ho
 <embed 
        type="text/html" 
        src="/plots/bokeh_plot.html"
-       width="750"
-       height="650"
+       width="780"
+       height="620"
        >
 
 *Figure 2: Number of crimes related to drugs, alcohol, prostitution, gambling, and vandalism committed from 2003 to 2018 in popular party destinations around the San Francisco city.*
@@ -66,8 +65,6 @@ Nightlife in San Francisco appears to be very vivid. It spans across half of the
 
 ### **Contributions**
 
-Part 1: Jacek Wiśniewski (s222678)
-
-Part 2: Agata Makarewicz (s201773)
-
+Part 1: Jacek Wiśniewski (s222678)<br>
+Part 2: Agata Makarewicz (s201773)<br>
 Part 3: Jakub Wiśniewski (s230212)
