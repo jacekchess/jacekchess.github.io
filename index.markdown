@@ -2,22 +2,24 @@
 layout: home
 ---
 
-### Intro
+### **Introduction**
 
 Big city life can be full of surprises, opportunities, and positive and negative emotions, all of which happen at an extremely fast pace. For the citizens of San Francisco, with a population just below a million, such a life is a daily routine. It is no surprise, that some of them need to decompress after a tough week in the local bar. However, some of this decompression may result in a hectic night...
 
+```
 The City and County of San Francisco provides a bunch of datasets enaling us to get insights into the city life, among others an extensive historical record of reported incidents to the San Francisco Police Department (SFPD) from 2003 to May 2018. This dataset encompasses a wide range of criminal incidents, including but not limited to thefts, assaults, burglaries, robberies, vandalism, drug offenses, and other public safety-related incidents.
 
 This dataset serves as a valuable resource for various stakeholders, including law enforcement agencies, researchers, policymakers, urban planners, and the general public. It can be utilized for crime analysis, research, policy development, community engagement, and public safety planning initiatives aimed at improving the overall well-being and safety of residents in San Francisco.
+```
 
-In our research, we decided to look closer at the most popular party districts in San Francisco [1](#References) and analyze the crimes that happen there. Our goal is to find out when the party takes the out-of-law turn, where it happens, and what kind of crimes we should watch out for. The answers to these questions may help to improve safety in the "The Golden City".
+In our research, we decided to look closer at the most popular party districts in San Francisco [\[1\]](#References) and analyze the crimes that happen there. Our goal is to find out when the party takes the out-of-law turn, where it happens, and what kind of crimes we should watch out for. The answers to these questions may help to improve safety in the "The Golden City".
 
-### xxx 
+### **Are parties crime triggers?** 
 
 <embed 
        type="text/html" 
        src="/plots/heatmap_with_time.html"
-       width="1000"
+       width="750"
        height="600"
        >
 
@@ -26,7 +28,7 @@ In our research, we decided to look closer at the most popular party districts i
 
 Our spatial analysis confirms, that during the night, rush hours in the party places lead to the increase in crime numbers. The least crimeful place out of the ones we analyze turns out to be the Marina district, as it is slightly isolated from the rest of the party life. Crimes committed in the night hours reach a peak around midnight, and later slowly decrease. The party time ends at 5:00, when the crime rate comes back to the daytime levels. 
 
-### Looking back
+### **Which areas are the most crime-prone?**
 
 The analysis presented in Figure 1 does not provide any quantitive measure of how many crimes are committed around the party locations. We observed that the Marina District seems to have fewer crimes, but it was difficult to find the most dangerous place. In the time series analysis presented in Figure 2, we investigate how the number of crimes changed in the party locations, to find out, which is historically infamous for being the crimeful one.
 
@@ -34,15 +36,15 @@ The analysis presented in Figure 1 does not provide any quantitive measure of ho
 <embed 
        type="text/html" 
        src="/plots/bokeh_plot.html"
-       width="1000"
-       height="600"
+       width="750"
+       height="450"
        >
 
 *Figure 2: Number of crimes related to drugs, alcohol, prostitution, gambling, and vandalism committed from 2003 to 2018 in popular party destinations around the San Francisco city.*
 
 Figure 2 reveals, that the San Francisco Police Department managed to achieve a significant decrease in the number of crimes committed around party locations. The number of crimes is over twice as low in 2018 compared to the 2008 status. This achievement would not be possible without improving safety around the most dangerous party place - centrally located Theater District. The number of crimes committed around that area is still the highest, but it is only a fraction of what we observed a decade before.
 
-### xxx 
+### **Are weekends more dangerous?** 
 
 In order to get more insight into the nightlife hubs in San Francisco and their potential impact on the crime occurrences, we looked closely at the selected areas and crimes that were commited there. We then picked and investigated the most interesting changes in time in crimes connected with parties. 
 
@@ -56,13 +58,15 @@ The analysis of hourly crimes commited prove that the behaviors of offenders are
 
 Nightlife in San Francisco appears to be very vivid. It spans across half of the city, so there are plenty options to spend a night out. If you are looking for a quiet place, where you can spend fun time without risking getting into trouble, we would recommend checking Marina District and Polk Street. On the other hand, Theter District might be the place you would rather avoid, even though it is much safer then it used to be. Additionaly, avoiding crowds may be a good tactic to ensure safety - going out during weekdays and avoiding rush hours (23:00 - 01:00).
 
-### References
+### **References**
 
-1. Dataset [TODO]
-2. San Francisco Nightlife, https://www.extranomical.com/san-francisco-nightlife/
+1. SF Police Department Incident Reports: Historical 2003 to May 2018, [https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry/](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry/)
+2. San Francisco Nightlife, [https://www.extranomical.com/san-francisco-nightlife/](https://www.extranomical.com/san-francisco-nightlife/)
 
-### Contributions
+### **Contributions**
 
 Part 1: Jacek Wiśniewski (s222678)
+
 Part 2: Agata Makarewicz (s201773)
+
 Part 3: Jakub Wiśniewski (s)
