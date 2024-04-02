@@ -10,7 +10,7 @@ In our research, we decided to look closer at the most popular party districts i
 <embed 
        type="text/html" 
        src="/plots/heatmap_with_time.html"
-       width="1100"
+       width="750"
        height="600"
        >
 
