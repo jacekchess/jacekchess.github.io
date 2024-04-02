@@ -27,3 +27,11 @@ To get even more information we looked closely at the selected areas and crimes 
 *Figure 2: Crimes related to Vandalism, Prostitution, Drunkness and Driving under influence. The numbers in the plots show crimes commited per day to account for the diffenret number of days between the weekend and weekdays. Here weekend crimes are ones that are done between the 12pm on Friday and 12pm on Sunday.*
 
 The analysis of hourly crimes commited prove that the behaviors of offenders are different during the weekend and during the weekdays. There are more crimes during the weekends and they are in some cases shifted towards evening hours. It comes without surprise that drunkness and driving under influence is more common during late weekend nights. Vandalism and prostitution however have similar hourly distribution, but are just more frequently commited during the weekends.
+
+
+<embed 
+       type="text/html" 
+       src="/plots/bokeh_plot.html"
+       width="1100"
+       height="600"
+       >
