@@ -35,8 +35,8 @@ The analysis presented in Figure 1 does not provide any quantitive measure of ho
 <embed 
        type="text/html" 
        src="/plots/bokeh_plot.html"
-       width="700"
-       height="600"
+       width="680"
+       height="580"
        >
 
 *Figure 2: Number of crimes related to drugs, alcohol, prostitution, gambling, and vandalism committed from 2003 to 2018 in popular party destinations around the San Francisco city.*
