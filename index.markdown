@@ -6,11 +6,12 @@ Big city life can be full of surprises, opportunities, and positive and negative
 
 <div style="background-color: #f0f0f0; border: 1px solid #dcdcdc; border-radius: 5px; padding: 10px;">
 <b>About the dataset</b>
-<br>
+<br><br>
 The City and County of San Francisco provides a bunch of datasets enabling us to get insights into the city life, among others an extensive historical record of reported incidents to the San Francisco Police Department (SFPD) from 2003 to May 2018 [\[1\]](#References). This dataset encompasses a wide range of criminal incidents, including but not limited to thefts, assaults, burglaries, robberies, vandalism, drug offenses, and other public safety-related incidents.
-<br>
+<br><br>
 This dataset serves as a valuable resource for various stakeholders, including law enforcement agencies, researchers, policymakers, urban planners, and the general public. It can be utilized for crime analysis, research, policy development, community engagement, and public safety planning initiatives aimed at improving the overall well-being and safety of residents in San Francisco.
 </div>
+<br>
 
 In our research, we decided to look closer at the most popular party districts in San Francisco [\[2\]](#References) and analyze the crimes that happen there. Our goal is to find out when the party takes the out-of-law turn, where it happens, and what kind of crimes we should watch out for. The answers to these questions may help to improve safety in the "The Golden City".
 
@@ -35,7 +36,7 @@ The analysis presented in Figure 1 does not provide any quantitive measure of ho
        type="text/html" 
        src="/plots/bokeh_plot.html"
        width="750"
-       height="500"
+       height="600"
        >
 
 *Figure 2: Number of crimes related to drugs, alcohol, prostitution, gambling, and vandalism committed from 2003 to 2018 in popular party destinations around the San Francisco city.*
