@@ -24,7 +24,12 @@ We can easily observe, that there is one dominating family/genre/species of tree
 
 In this section we will take a closer look at how did the number of planted trees evolved. Firstly we will see the developments on the map and later we will inspect how does the seasonality look. 
 
-![Text](/plots/trees_over_the_months_map.html)
+<embed 
+       type="text/html" 
+       src="/plots/trees_over_the_months_map.html"
+       width="750"
+       height="600"
+>
 
 *Figure X: In the visualization above we can see the distribution of trees planted in Melbourne over the months. The map is interactive, so you can click on the play button to see how the tree planting evolved over time. The time series plot below the map shows the number of trees planted each month. We can see that the number of trees planted has been increasing over the years. Additionally we can see that trees are quite often planted in close areas/parks/streets which is something we can expect in real life*
 
