@@ -18,3 +18,41 @@ One of the main threats to the urban forest that the City of Melbourne recognize
 
 We can easily observe, that there is one dominating family/genre/species of trees, which is the Myrtaceae family with Eucalyptuses. However, the Eucalyptus dominance has been decreasing since the start of the campaign. The City of Melbourne has planted many Acacias and Bursarias for the last decade, which resulted in more diverse green live. The campaign's progress can impress with its consistency and if the council will be able to keep up the speed of planting new, non-eucalyptus trees, they should achieve their goal by 2032. However, they will need to find another tree genre then Acacia, as there are already too many of them compared to less popular genres.
 
+
+
+## Time series 
+
+In this section we will take a closer look at how did the number of planted trees evolved. Firstly we will see the developments on the map and later we will inspect how does the seasonality look. 
+
+![Text](/plots/trees_over_the_months_map.html)
+
+*Figure X: In the visualization above we can see the distribution of trees planted in Melbourne over the months. The map is interactive, so you can click on the play button to see how the tree planting evolved over time. The time series plot below the map shows the number of trees planted each month. We can see that the number of trees planted has been increasing over the years. Additionally we can see that trees are quite often planted in close areas/parks/streets which is something we can expect in real life*
+
+
+![Text](/plots/ts_line.png)
+
+*Figure X: In the visualization above, we can view the seasonality in the trees being planted. The darker red colors mean months from June to August, and lighter red from April to end of October. This means that the most trees are planted during australian winter. Seasonality matches especially after 2013, where the plantings are very regular.*
+
+## Satelite Views
+
+In order to verify how the tree planting affected the greenery in Melbourne we decided to look at the satelite photos. It is the most simple way to compare two different points in time, see what changed in the city, whether the amount of green spaces in the city increased or decreased.
+
+Satelite images were sourced from Google Earth Engine (later GEE) from Copernicus satelite. The clouds were filtered out with a script in GEE. The images were created  by taking the median of pixels from whole years. By doing this we are minimizing the variablity in the images which can be caused by weather and time of the year.
+
+![Text](/plots/aerial_images.png)
+
+*Figure X: Satelite view of Melbourne in the  years 2016 and 2021. The images were constructed by using median of 365 images from each year in order to minimize variability*
+
+The easiest way to check whether the green spaces increased or decreased is to loog at RGB histograms - and in our case in the histograms of green pixels. This hovewer in this case can be misleading. Let's take a look at the image below.
+
+![Text](/plots/green_intensity.png)
+
+*Figure X: Image above shows the number of green pixels of certain intensity. There is significant difference at the start of area chart where the green pixels are "more intensive" in 2021*
+
+After closer inspection and plotting the certain intensity of pixels over the map we concluded that the difference occured mostly in the water areas - probably in 2021 there is more algee in the sea and river waters near Melbourne. Therefore in the next visualization we will manually mask out the water reservoirs and make a pixel mask for the vegetation.
+
+![Text](/plots/vegetation.png)
+
+*Figure X: In the image above we have shown the added vegetation in the span of 5 years. The vegetation is defined as having a certain intensity of pixels (Big intensity of green and low of red in the pixels). This of course does not capture only trees but all greenery in the city (apart from water that we masked out).*
+
+We found that the difference in vegetation rose 3.2% from 2016. This means that the citizens of Melbourne can enjoy a city that is more green. There could be of course other reasons for it apart from trees being planted, but it certainly was a part of that. 
