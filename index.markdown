@@ -40,7 +40,7 @@ In order to verify how the tree planting affected the greenery in Melbourne we d
 Satelite images were sourced from Google Earth Engine (later GEE) from Copernicus satelite. The clouds were filtered out with a script in GEE. The images were created  by taking the median of pixels from whole years. By doing this we are minimizing the variablity in the images which can be caused by weather and time of the year.
 
 ![Text](/plots/aerial_images.png)
-
+ 
 *Figure X: Satelite view of Melbourne in the  years 2016 and 2021. The images were constructed by using median of 365 images from each year in order to minimize variability*
 
 The easiest way to check whether the green spaces increased or decreased is to loog at RGB histograms - and in our case in the histograms of green pixels. This hovewer in this case can be misleading. Let's take a look at the image below.
