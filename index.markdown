@@ -18,8 +18,6 @@ One of the main threats to the urban forest that the City of Melbourne recognize
 
 We can easily observe, that there is one dominating family/genre/species of trees, which is the Myrtaceae family with Eucalyptuses. However, the Eucalyptus dominance has been decreasing since the start of the campaign. The City of Melbourne has planted many Acacias and Bursarias for the last decade, which resulted in more diverse green live. The campaign's progress can impress with its consistency and if the council will be able to keep up the speed of planting new, non-eucalyptus trees, they should achieve their goal by 2032. However, they will need to find another tree genre then Acacia, as there are already too many of them compared to less popular genres.
 
-
-
 ## Strategy Consistency
 
 In this section, we will take a closer look at how the number of planted trees evolved. Firstly we will see the developments on the map and later we will inspect what the seasonality looks like. 
@@ -64,3 +62,20 @@ After closer inspection and plotting the certain intensity of pixels over the ma
 *Figure 6: Satellite image from 2021 (left), vegetation mask for the image from 2021 (middle), and difference in vegetation masks from 2021 and 2016 (right). The vegetation is defined as having a certain intensity of pixels (Big intensity of green and low of red in the pixels). This of course does not capture only trees but all greenery in the city (apart from the water that we masked out).*
 
 We found that the difference in vegetation rose 3.2% from 2016. This means that the citizens of Melbourne can enjoy a city that is more green. There could be of course other reasons for it apart from trees being planted, but it certainly was a part of that. 
+
+## Greenery within districts
+
+Having witnessed the noticeable rise in greenery within the city from above, it's time to delve into the data to understand the underlying trends. Let's transition from our visual observations to a data-driven analysis to explore Melbourne's urban forest landscape further.
+
+One of the targets set out in the Urban Forest Strategy was to increase the canopy cover of the city to 40%. Canopy cover is a measure of the physical coverage of the tree canopy over the land. It represents 
+a way of expressing, as a percentage, how much of any given area is shaded by trees. Although we couldn't directly measure this metric, we monitored the number of new trees planted, providing a partial view. While this doesn't capture the entire scenario, as some trees may be removed or reach the end of their lifespan, it does offer insights into the city's progress toward its target. Notably, areas with the lowest canopy cover include Parkville (19.4%), Southbank (14.2%), and Docklands (6.4%).
+
+<embed 
+       type="text/html" 
+       src="/plots/district_interactive_map.html"
+       width="800"
+       height="600">
+
+*Figure 7: The choropleth map displays the cumulative count of trees planted in different districts of Melbourne over the period spanning from 2012 to 2021. Each district is shaded with a color gradient, representing the number of planted trees, with darker shades indicating higher counts. Hovering over the polygons, we can see the exact number of the trees as well as district name and area.*
+
+TODO
