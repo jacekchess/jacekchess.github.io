@@ -20,44 +20,47 @@ We can easily observe, that there is one dominating family/genre/species of tree
 
 
 
-## Time series 
+## Strategy Consistency
 
-In this section we will take a closer look at how did the number of planted trees evolved. Firstly we will see the developments on the map and later we will inspect how does the seasonality look. 
+In this section, we will take a closer look at how the number of planted trees evolved. Firstly we will see the developments on the map and later we will inspect what the seasonality looks like. 
 
 <embed 
-       type="text/html" 
-       src="/plots/trees_over_the_months_map.html"
-       width="750"
-       height="600"
->
+       type="text/html" 
+       src="/plots/ts_map2.html"
+       width="700"
+       height="690">
 
-*Figure X: In the visualization above we can see the distribution of trees planted in Melbourne over the months. The map is interactive, so you can click on the play button to see how the tree planting evolved over time. The time series plot below the map shows the number of trees planted each month. We can see that the number of trees planted has been increasing over the years. Additionally we can see that trees are quite often planted in close areas/parks/streets which is something we can expect in real life*
+*Figure 2: Distribution of trees planted in Melbourne over the months between December 2004 and December 2021. We can see that trees are often planted in close proximity to parks and streets.*
+
+With spatial analysis, we managed to discover that trees are rarely planted separately. In Figure 2 we observe that during most months between December 2004 and December 2021, new trees form blob structures - creating a new park addition - or lines - as a new boulevard, walk path, or street greenery. To summarize, planting trees in Melbourne happens regularly in an organized manner.
 
 
 ![Text](/plots/ts_line.png)
 
-*Figure X: In the visualization above, we can view the seasonality in the trees being planted. The darker red colors mean months from June to August, and lighter red from April to end of October. This means that the most trees are planted during australian winter. Seasonality matches especially after 2013, where the plantings are very regular.*
+*Figure 3: Time series of the number of trees planted each month between December 2004 and December 2021. We can see that the number of trees planted has been increasing over the years.*
 
-## Satelite Views
+In the visualization above, we can observe the seasonality in planting trees. The darker red colors mean months from June to August and lighter red from April to the end of October. This means that the majority of trees are planted during Australian winter. Seasonality matches especially after 2013, where the plantings are very regular. Increased regularity may be a result of the Urban Forest Strategy.
 
-In order to verify how the tree planting affected the greenery in Melbourne we decided to look at the satelite photos. It is the most simple way to compare two different points in time, see what changed in the city, whether the amount of green spaces in the city increased or decreased.
+## Satellite Views
 
-Satelite images were sourced from Google Earth Engine (later GEE) from Copernicus satelite. The clouds were filtered out with a script in GEE. The images were created  by taking the median of pixels from whole years. By doing this we are minimizing the variablity in the images which can be caused by weather and time of the year.
+In order to verify how the tree planting affected the greenery in Melbourne we decided to look at the satellite photos. It is the simplest way to compare two different points in time and see what changed in the city, whether the amount of green spaces in the city increased or decreased.
+
+Satellite images were sourced from Google Earth Engine (later GEE) from Copernicus satellite. The clouds were filtered out with a script in GEE. The images were created by taking the median of pixels from whole years. By doing this we are minimizing the variability in the images which can be caused by weather and time of the year.
 
 ![Text](/plots/aerial_images.png)
- 
-*Figure X: Satelite view of Melbourne in the  years 2016 and 2021. The images were constructed by using median of 365 images from each year in order to minimize variability*
 
-The easiest way to check whether the green spaces increased or decreased is to loog at RGB histograms - and in our case in the histograms of green pixels. This hovewer in this case can be misleading. Let's take a look at the image below.
+*Figure 4: Satellite view of Melbourne in the years 2016 and 2021. The images were constructed by using the median of 365 images from each year in order to minimize variability.*
+
+The easiest way to check whether the green spaces increased or decreased is to look at RGB histograms - and in our case at the histograms of green pixels. This however in this case can be misleading. Let's take a look at the image below.
 
 ![Text](/plots/green_intensity.png)
 
-*Figure X: Image above shows the number of green pixels of certain intensity. There is significant difference at the start of area chart where the green pixels are "more intensive" in 2021*
+*Figure 5: The number of green pixels of a certain intensity. There is a significant difference at the beginning of the area chart where the green pixels are "more intensive" in 2021.*
 
-After closer inspection and plotting the certain intensity of pixels over the map we concluded that the difference occured mostly in the water areas - probably in 2021 there is more algee in the sea and river waters near Melbourne. Therefore in the next visualization we will manually mask out the water reservoirs and make a pixel mask for the vegetation.
+After closer inspection and plotting the certain intensity of pixels over the map, we concluded that the difference occurred mostly in the water areas - probably in 2021 there was more algae in the sea and river waters near Melbourne. Therefore in the next visualization, we will manually mask out the water reservoirs and make a pixel mask for the vegetation.
 
 ![Text](/plots/vegetation.png)
 
-*Figure X: In the image above we have shown the added vegetation in the span of 5 years. The vegetation is defined as having a certain intensity of pixels (Big intensity of green and low of red in the pixels). This of course does not capture only trees but all greenery in the city (apart from water that we masked out).*
+*Figure 6: Satellite image from 2021 (left), vegetation mask for the image from 2021 (middle), and difference in vegetation masks from 2021 and 2016 (right). The vegetation is defined as having a certain intensity of pixels (Big intensity of green and low of red in the pixels). This of course does not capture only trees but all greenery in the city (apart from the water that we masked out).*
 
 We found that the difference in vegetation rose 3.2% from 2016. This means that the citizens of Melbourne can enjoy a city that is more green. There could be of course other reasons for it apart from trees being planted, but it certainly was a part of that. 
