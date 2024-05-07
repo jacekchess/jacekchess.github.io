@@ -78,4 +78,9 @@ a way of expressing, as a percentage, how much of any given area is shaded by tr
 
 *Figure 7: The choropleth map displays the cumulative count of trees planted in different districts of Melbourne over the period spanning from 2012 to 2021. Each district is shaded with a color gradient, representing the number of planted trees, with darker shades indicating higher counts. Hovering over the polygons, we can see the exact number of the trees as well as district name and area.*
 
-TODO
+
+Analyzing the map, it becomes evident that a substantial surge in tree planting occurred shortly after the initiation of the Urban Forest Strategy in 2013, notably in Parkville, where tree numbers soared to over 5000.
+
+Over the years leading up to 2021, Southbank witnessed a remarkable growth from 68 to over 700 trees, while Docklands experienced an even more pronounced increase, from 400 to over 2900 trees. These numbers underscore the effective implementation of the strategy, particularly in areas with lower canopy cover.
+
+Across most districts, a consistent annual planting of 50 to 1000 trees was observed. However, fewer trees were planted in inner districts like the CBD and West Melbourne, possibly due to their smaller area and dense urban infrastructure.
