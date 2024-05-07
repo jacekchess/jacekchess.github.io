@@ -23,7 +23,7 @@ We can easily observe, that there is one dominating family/genre/species of tree
 In this section, we will take a closer look at how the number of planted trees evolved. Firstly we will see the developments on the map and later we will inspect what the seasonality looks like. 
 
 <iframe 
-       src="/plots/ts_map2.html"
+       src="{{ site.baseurl }}/plots/ts_map2.html"
        width="700"
        height="690">
 </iframe>
