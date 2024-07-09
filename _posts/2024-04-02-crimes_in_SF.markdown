@@ -68,9 +68,3 @@ Nightlife in San Francisco appears to be very vivid. It spans across half of the
 
 1. SF Police Department Incident Reports: Historical 2003 to May 2018, [https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry/](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry/)
 2. San Francisco Nightlife, [https://www.extranomical.com/san-francisco-nightlife/](https://www.extranomical.com/san-francisco-nightlife/)
-
-### **Contributions**
-
-Part 1: Jacek Wiśniewski (s222678)<br>
-Part 2: Agata Makarewicz (s201773)<br>
-Part 3: Jakub Wiśniewski (s230212)
