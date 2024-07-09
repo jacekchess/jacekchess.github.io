@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Melbourne's Pursuit for the Urban Forest
-email: s222678@dtu.dk
-description: >- # this means to ignore newlines until "baseurl:"
-  This is a project for DTU's Social Data Analysis course.
+title: Just another Data Science blog
+email: j.wisniewski@vp.pl
+# description: >- # this means to ignore newlines until "baseurl:"
+#   My very first blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+github_username:  jacekchess
 
 # Build settings
 theme: minima
