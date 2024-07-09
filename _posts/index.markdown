@@ -1,6 +1,12 @@
 ---
-layout: home
+layout: post
+title: San Francisco Nightlife Sins
+date: 2024-04-02
+categories: blog
+permalink: /crimes_in_SF
 ---
+
+*In colaboration with [Agata Makarewicz](https://github.com/amakarewicz) and [Jakub Wiśniewski](https://github.com/jakwisn)*
 
 Big city life can be full of surprises, opportunities, and positive and negative emotions, all of which happen at an extremely fast pace. For the citizens of San Francisco, with a population just below a million, such a life is a daily routine. It is no surprise, that some of them need to decompress after a tough week in the local bar. However, some of this decompression may result in a hectic night...
 
